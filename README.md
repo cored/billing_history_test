@@ -4,7 +4,7 @@ Does billing need an event store? This repo tests that question with code you ca
 
 Each test writes the same billing logic twice, once with an event log as the source of truth and once with plain append-only tables, then runs one spec against both designs.
 
-## Test 1: late usage (Snippets of Code, Issue 02)
+## Test 1: late usage [Snippets of Code](https://snippetsofcode.substack.com/)
 
 The spec checks three things:
 
